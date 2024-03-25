@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/" class="font-neutrals-600">Home</router-link> |
+      <router-link to="/employees" class="font-neutrals-600= fa"
+        >Employees</router-link
+      >
     </nav>
     <router-view />
   </div>
@@ -22,6 +24,7 @@ nav {
 }
 
 nav a {
+  font-size: 20px;
   font-weight: bold;
   color: #2c3e50;
 }

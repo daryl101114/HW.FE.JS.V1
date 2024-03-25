@@ -1,0 +1,181 @@
+@import "../style/colorVarialbes.scss";
+.home-header {
+  background-color: $primary600;
+  color: $primary50;
+}
+.test-borders {
+  border: 1px solid;
+}
+
+//FLEX
+.d-flex {
+  display: flex;
+}
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+//WIDTH (percent)
+.w-full {
+  width: 100%;
+}
+.w-25 {
+  width: 25%;
+}
+//WIDTH (rem)
+.w-15rem {
+  width: 15rem;
+}
+
+//Height
+.h-1rem {
+  height: 1rem;
+}
+
+//MARGIN
+//Top
+.mt-1rem {
+  margin-top: 1rem;
+}
+
+//FONT COLOR
+//PRIMARY
+.font-primary-50 {
+  color: $primary50;
+}
+
+.font-primary-100 {
+  color: $primary100;
+}
+
+.font-primary-200 {
+  color: $primary200;
+}
+
+.font-primary-300 {
+  color: $primary300;
+}
+
+.font-primary-400 {
+  color: $primary400;
+}
+
+.font-primary-500 {
+  color: $primary500;
+}
+
+.font-primary-600 {
+  color: $primary600;
+}
+
+.font-primary-700 {
+  color: $primary700;
+}
+
+.font-primary-800 {
+  color: $primary800;
+}
+
+.font-primary-900 {
+  color: $primary900;
+}
+//NEUTRALS
+.font-neutrals-50 {
+  color: $neutrals50;
+}
+
+.font-neutrals-100 {
+  color: $neutrals100;
+}
+
+.font-neutrals-200 {
+  color: $neutrals200;
+}
+
+.font-neutrals-300 {
+  color: $neutrals300;
+}
+
+.font-neutrals-400 {
+  color: $neutrals400;
+}
+
+.font-neutrals-500 {
+  color: $neutrals500;
+}
+
+.font-neutrals-600 {
+  color: $neutrals600;
+}
+
+.font-neutrals-700 {
+  color: $neutrals700;
+}
+
+.font-neutrals-800 {
+  color: $neutrals800;
+}
+
+.font-neutrals-900 {
+  color: $neutrals900;
+}
+//CYAN
+.font-cyan-50 {
+  color: $cyan50;
+}
+
+.font-cyan-100 {
+  color: $cyan100;
+}
+
+.font-cyan-200 {
+  color: $cyan200;
+}
+
+.font-cyan-300 {
+  color: $cyan300;
+}
+
+.font-cyan-400 {
+  color: $cyan400;
+}
+
+.font-cyan-500 {
+  color: $cyan500;
+}
+
+.font-cyan-600 {
+  color: $cyan600;
+}
+
+.font-cyan-700 {
+  color: $cyan700;
+}
+
+.font-cyan-800 {
+  color: $cyan800;
+}
+
+.font-cyan-900 {
+  color: $cyan900;
+}
+
+//LOADING
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
